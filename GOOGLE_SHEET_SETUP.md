@@ -68,7 +68,7 @@ function doPost(e) {
 ---
 
 ### Step 4: Paste into your Website
-1. Open `index.html` (or `yash_modi_portfolio_systems.html`).
+1. Open `index.html`.
 2. Near line 748, locate:
    ```javascript
    const GOOGLE_SHEET_WEBAPP_URL = "";

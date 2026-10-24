@@ -1947,6 +1947,7 @@
     // Email Copy Button
     const copyEmailBtn = document.getElementById('copy-email-btn');
     if (copyEmailBtn) {
+      copyEmailBtn.dataset.email = 'yash_2401me59@iitp.ac.in';
       copyEmailBtn.addEventListener('click', () => {
         const email = copyEmailBtn.dataset.email;
         const copyTextEl = copyEmailBtn.querySelector('.copy-text');
